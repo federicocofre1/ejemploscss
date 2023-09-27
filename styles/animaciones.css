@@ -1,0 +1,56 @@
+.cajita{
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    
+}
+
+@keyframes animacion{
+    from{
+       left: 0px;
+       background-color: rgb(126, 111, 255);
+    
+    }
+    
+    to{
+        left: 300px;
+        background-color: rgb(255, 0, 0);
+    
+    }
+    
+}
+
+.linear{
+    animation: animacion 2s linear infinite alternate;
+    
+}
+.ease{
+    animation: animacion 2s ease infinite alternate;
+}
+.ease-in{
+    animation: animacion 2s ease-in infinite alternate;
+}
+.ease-out{
+    animation: animacion 2s ease-out infinite alternate;
+}
+.ease-in-out{
+    animation: animacion 2s ease-in-out infinite alternate;
+}
+
+.introduccion{
+    color: rgb(0, 255, 55);
+    font-size: 25px;
+    
+
+}
+
+h4{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    padding: 50px;
+    margin: 12px;
+    border: 2px solid rgb(255, 255, 255);
+}

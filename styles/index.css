@@ -1,0 +1,20 @@
+.texto:not(h3){
+    color: rgb(0, 255, 55);
+    font-size: 25px;
+
+}
+
+a:hover{
+    background-color: rgb(255, 180, 94);
+}
+
+a{
+    color: rgb(97, 211, 125);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(255, 174, 0);
+    font-size: 45px;
+}

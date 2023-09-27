@@ -1,0 +1,38 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+
+}
+
+.plano{
+    background-color: rgb(255, 136, 0);
+    color: white
+
+}
+
+.gradiente{
+    background: linear-gradient(to right, red,blue);
+    color: white;
+}
+
+.imagen{
+    background-image: url(/assets/img/fondo.jpg);
+    color: white;
+}
+
+.introduccion{
+    color: rgb(0, 255, 55);
+    font-size: 25px;
+
+}
